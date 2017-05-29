@@ -89,6 +89,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 #ALIAS PERSONALIZDOS
+#ALIAS PERSONALIZDOS
 alias master='git checkout master'
 alias pull='git pull'
 alias del='git branch -D'
@@ -110,6 +111,7 @@ alias vm='cd credenciado-medico'
 alias push='git push'
 alias run='docker-npm run build-front'
 alias containers='docker ps'
+alias restart='docker stop amil-weblogic && docker stop amil-apache && docker start amil-weblogic && docker start amil-apache'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
