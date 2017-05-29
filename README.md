@@ -1,7 +1,7 @@
 # Dotfiles
 My config bash
 
-#### Alias
+#### ALIAS PERSONALIZADOS
 
 ###### .bash_profile ==========================================================================
 
