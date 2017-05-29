@@ -5,16 +5,19 @@ My config bash
 
 ###### .bash_profile ==========================================================================
 
+```bash
 if [ -f "${HOME}/.bashrc" ] ; then
   source "${HOME}/.bashrc"
 fi
 
 alias turn_on='cd $USERPROFILE/vm && vagrant up && vagrant ssh'
-
+```
 
 ###### .bashrc ==========================================================================
 
 #ALIAS PERSONALIZDOS
+
+```bash
 alias master='git checkout master'
 alias pull='git pull'
 alias del='git branch -D'
@@ -36,3 +39,4 @@ alias vm='cd credenciado-medico'
 alias push='git push'
 alias run='docker-npm run build-front'
 alias containers='docker ps'
+```
