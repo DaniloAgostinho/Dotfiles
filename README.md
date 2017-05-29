@@ -1,5 +1,8 @@
 # Dotfiles
-My config bash
+
+This project using bash-it by [Bash-it](https://github.com/Bash-it/bash-it)
+
+
 
 #### ALIAS PERSONALIZADOS
 
