@@ -19,6 +19,7 @@ alias turn_on='cd $USERPROFILE/vm && vagrant up && vagrant ssh'
 ###### .bashrc ==========================================================================
 
 ```bash
+#ALIAS PERSONALIZDOS
 alias master='git checkout master'
 alias pull='git pull'
 alias del='git branch -D'
@@ -40,4 +41,6 @@ alias vm='cd credenciado-medico'
 alias push='git push'
 alias run='docker-npm run build-front'
 alias containers='docker ps'
+alias restart='docker stop amil-weblogic && docker stop amil-apache && docker start amil-weblogic && docker start amil-apache'
+
 ```
