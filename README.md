@@ -15,8 +15,6 @@ alias turn_on='cd $USERPROFILE/vm && vagrant up && vagrant ssh'
 
 ###### .bashrc ==========================================================================
 
-#ALIAS PERSONALIZDOS
-
 ```bash
 alias master='git checkout master'
 alias pull='git pull'
