@@ -112,7 +112,8 @@ alias push='git push'
 alias run='docker-npm run build-front'
 alias containers='docker ps'
 alias restart='docker stop amil-weblogic && docker stop amil-apache && docker start amil-weblogic && docker start amil-apache'
-
+git add="git add"
+git commit="git commit -m"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
